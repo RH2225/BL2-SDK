@@ -639,7 +639,7 @@ end
 
 function BaseControl:OnCopy(from)
 	return
-end
+end,
 
 function BaseControl:OnCut(from)
 	return
@@ -658,7 +658,7 @@ function BaseControl:OnKeyTab(down)
 	end
 
 	return true
-end
+enfd
 
 -- TODO: Could fill in all the other OnKey events here
 
